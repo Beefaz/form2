@@ -5,11 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form2</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700;800">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
 <main>
+    <div class="side-left">
+        <h1>Let's Chat</h1>
+        <p>Whether you have a question, want to start a project, or simply want to connect.</p>
+        <p>Feel free to send me a message in the contact form</p>
+    </div>
+    <div class="side-right">
+        <h1>Contact</h1>
+        <small>* Required</small>
+        <form id="form2">
+            <label for="name" hidden>Name</label>
+            <input type="text" placeholder="Name *" id="name">
+
+            <label for="email" hidden>Name</label>
+            <input type="email" placeholder="Email *" id="email">
+
+            <label for="company" hidden>Company</label>
+            <input type="text" placeholder="Company" id="company">
+
+            <label for="phone" hidden>Phone</label>
+            <input type="tel" placeholder="Phone" id="phone">
+
+            <label for="message" hidden>Message</label>
+            <textarea rows="3" placeholder="Message" id="message"></textarea>
+
+            <button type="submit" class="submit-btn" form="form2" value="Submit">Submit</button>
+        </form>
+    </div>
 </main>
 </body>
 </html>
