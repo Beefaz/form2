@@ -76,7 +76,8 @@ textarea {
     border: unset;
     padding: 10px;
     font: inherit;
-    resize: vertical
+    resize: vertical;
+    min-height: 4em !important;
 }
 
 .submit-btn {
